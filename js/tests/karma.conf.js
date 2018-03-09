@@ -19,6 +19,7 @@ module.exports = (config) => {
     // list of files / patterns to load in the browser
     files: [
       jqueryFile,
+      'js/tests/vendor/sinon.min.js',
       'assets/js/vendor/popper.min.js',
       'js/coverage/dist/util.js',
       'js/coverage/dist/tooltip.js',
